@@ -1,5 +1,5 @@
 // ====================== CONFIG ======================
-const WEBAPP_URL = "https://script.google.com/macros/s/AKfycbwg4Oh814uuGUfkh7SbN7eEvyQYAoW_gDjXrR-Xlracknk3iUc3oWWchBVqduhyIpYD/exec";
+const WEBAPP_URL = "https://script.google.com/macros/s/AKfycbzp4ouci2v0rnPTDd0vSAzgAGd3tnXctfJsCrs_TQQob8bdtPePYUOV0aPV8NysOfWy/exec";
 
 let isEditMode = false;
 let students = [];
@@ -122,5 +122,6 @@ async function saveEditStudent() {
     closeEditModal();
     loadStudents();
 }
+
 
 
